@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+        <p class="name">Đoạn văn bản 1.</p>
+        <p class="name">Đoạn văn bản 2.</p>
+        <p class="demo">Đoạn văn bản 3.</p>
+        <script>
+            // class name đang được sử dụng cho 2 thẻ 
+            let y=document.getElementsByClassName("name");
+            // Đoạn văn bản 1. có màu đỏ
+            y[0].style.color = "red"
+            console.log(y)
+            //y lúc này có giá trị là một danh sách các phần tử có thuộc tính class=”name”.
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDIV" class="myStyle test example">
+        I am a DIV element with multiple classes
+    </div>
+    <p id="demo_className"></p>
+    <script>
+        // Lấy được tên thẻ của element div
+        let x = document.getElementById("demo_className").tagName
+        console.log("Tên thẻ của id myDIV là: " + x)
+    </script>
+</body>
+</html>

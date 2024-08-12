@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function joinWithCharacter(array, charactor) {
+            let c = array.join(charactor)
+            return c
+        }
+
+
+        // Ví dụ khi sử dụng
+        var cars = ['Honda', 'Mazda', 'Mercedes'];
+
+        var result = joinWithCharacter(cars, ' - ');
+
+        console.log("giá trị là: " + result); // Expected: "Honda - Mazda - Mercedes"
+    </script>
+</body>
+
+</html>

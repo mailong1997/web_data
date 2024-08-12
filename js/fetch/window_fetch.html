@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        if (!('fetch' in window)) {
+            console.log('Fetch API not found, try including the polyfill');
+        }else{
+            console.log('Fetch API  found');
+        }
+        // We can safely use fetch from now on
+    </script>
+</body>
+
+</html>

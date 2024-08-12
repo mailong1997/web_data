@@ -1,0 +1,10 @@
+inlint: Ta đặt thuộc tính style vào thẻ mở của phần tử HTML, giá trị của thuộc tính 
+style là các cặp thuộc tính định dạng CSS
+
+internal: Ta đặt các cặp thuộc tính định dạng CSS vào bên trong cặp thẻ <style type="text/css"></style>
+Cặp thẻ <style type="text/css"></style> thì được đặt bên trong cặp thẻ <head></head>
+
+external: Ta đặt các thuộc tính định dạng vào bên trong tập tin CSS
+Trong cặp thẻ <head></head> của tập tin HTML, 
+ta dùng thẻ <link rel="stylesheet" type="text/css" href="đường dẫn đến tập tin CSS"> 
+để nhúng tập tin CSS vào trang web.

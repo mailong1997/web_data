@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <style>
+       
+        /* Sử dụng selector kết hợp  */
+
+        div p {
+            /* div là selector_1 */
+            /* p là selector_2 */
+
+            /* Descendant selector (space): Chọn tất cả các selector_2 là hậu duệ của selector_1 */
+            /* Thẻ p ở trong thẻ div thì có màu vàng */
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Paragraph 1 in the div.</p>
+        <!-- section nằm trong div => những thẻ nằm trong section cũng nằm trong div -->
+        <section>
+            <!-- nằm trong section -->
+            <p>Paragraph 2 in the div.</p>
+        </section>
+    </div>
+    <p>Paragraph 3. Not in a div.</p>
+    <p>Paragraph 4. Not in a div.</p>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+API -> fetch -> JSON -> Javascript type -> Đưa ra màn hình

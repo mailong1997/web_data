@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <style>
+        /* div là selector_1, p là selector_2 */
+        div~p {
+            /* General sibling selector (~): Chọn tất cả selector_2 là anh em sau selector_1 */
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Paragraph 1.</p>
+    <div>
+        <p>Paragraph 2.</p>
+    </div>
+    <p>Paragraph 3.</p>
+    <p>Paragraph 4.</p>
+    <p>Paragraph 5.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #center-div{
+            /* justify-content là một thuộc tính CSS
+             được sử dụng trong Flexbox để định vị các 
+             phần tử con trong container theo chiều ngang (main axis). 
+             */
+
+
+             /* Thuộc tính này align-items chỉ định cách 
+             căn chỉnh mặc định cho các mục bên trong hộp 
+             flexbox hoặc lưới. */
+             
+            display: flex;
+            width: 100px;
+            height: 200px;
+            border: 3px solid rgb(0, 255, 85);
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #child{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="center-div">
+        <div id="child"></div>
+    </div>
+</body>
+</html>

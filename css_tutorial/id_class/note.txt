@@ -1,0 +1,24 @@
+Trong CSS, selector (bộ chọn) là mẫu (được định nghĩa trước đó) để chọn
+ phần tử HTML mà bạn muốn định nghĩa style cho chúng. 
+Phần tử web nào muốn theo style của mẫu này thì chỉ cần gán tên selector mẫu này cho chúng là xong. 
+
+Thuộc tính id dùng để đặt tên cho một phần tử trong HTML, 
+mỗi thuộc tính id chỉ chỉ định cho một phần tử duy nhất trong file HTML hiện hành.
+
+Giá trị id được sử dụng trong CSS hoặc JavaScript 
+để chỉ định cụ thể định dạng hoặc thực hiện tác vụ nhất định cho phần tử đó.
+
+Gán thuộc tính id trong HTML:
+    <phần tử HTML  id= “id_name  “ >
+
+Sử dụng giá trị id trong CSS
+    #id_name{
+
+        thuộc tính: giá trị;
+
+    }
+
+Thuộc tính id có thể sử dụng trên bất kỳ phần tử HTML nào.
+id_name (giá trị id) chứa các ký tự chữ cái, số, gạch (_), nối (-); 
+có phân biệt chữ hoa và chữ thường. Trong giá trị id phải chứa ít nhất một ký tự và không có khoảng trắng. 
+Không nên bắt đầu tên id bằng số.

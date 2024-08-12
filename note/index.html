@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+    try {
+        // Không cho phép khai báo lại
+        // cho phép gán lại giá trị
+
+    var PI = "3.141592653589793"
+    var PI = 3.14
+    console.log(PI)
+    document.getElementById("demo").innerHTML = PI;
+    }
+    catch (err) {
+        console.log("catch")
+        document.getElementById("demo").innerHTML = err;
+    }
+</script>
+
+</body>
+</html>

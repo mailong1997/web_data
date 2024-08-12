@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="hello">Hi<strong>bye</strong></p>
+    <button onclick="getinnerContent()">getinnerContent</button>
+    <button onclick="getinnerHtml()">getinnerHtml</button>
+    <button onclick="getinnerText()">getinnerText</button>
+    <p id="demo"></p>
+    <script>
+        function getinnerText() {
+            let text = document.getElementById("hello").innerText;
+            document.getElementById("demo").innerText = text;
+        }
+
+        function getinnerHtml() {
+            let text = document.getElementById("hello").innerHTML;
+            document.getElementById("demo").innerHTML = text;
+        }
+
+        function getinnerContent() {
+            let text = document.getElementById("hello").textContent;
+            document.getElementById("demo").textContent = text;
+        }
+    </script>
+</body>
+
+</html>

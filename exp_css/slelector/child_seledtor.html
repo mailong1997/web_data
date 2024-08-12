@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <style>
+       
+        /* Sử dụng selector kết hợp  */
+
+        div > p {
+            /* Child selector (>): Chọn tất cả selector_2 là con của selector_1 */
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Paragraph 1 là con của div -->
+        <p>Paragraph 1 in the div.</p>
+        <!-- section là con của div -->
+        <section>
+            <!-- Paragraph 2 là con của section => Paragraph 2 không phải là con của div-->
+            <p>Paragraph 2 in the div.</p>
+        </section>
+    </div>
+    <p>Paragraph 3. Not in a div.</p>
+    <p>Paragraph 4. Not in a div.</p>
+</body>
+
+</html>

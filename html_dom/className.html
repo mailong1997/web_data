@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDIV" class="myStyle test example">
+        I am a DIV element with multiple classes
+    </div>
+    <p id="demo_className"></p>
+    <script>
+        // gán tên mới cho class của Element 
+        document.getElementById("myDIV").className = "name"
+        // lấy tên class của Element
+        let x = document.getElementById("myDIV").className
+        console.log("Tên của class của id myDIV là: " + x)
+    </script>
+</body>
+</html>
